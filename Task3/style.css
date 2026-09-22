@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(5, 86, 116);
+}
+
+.calcu-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    gap: 3vmin;
+    margin-top: 10vmin;
+    padding: 5vmin 2vmin ;
+    border-radius: 2vmin;
+    background-color: rgb(224, 245, 254);
+}
+
+.inputbox {
+    padding: 1.5vmin;
+    background-color: rgba(122, 207, 253, 0.429);
+    border-radius: 1vmin;
+    display: flex;
+    flex-direction: column;
+}
+.inputbox .display{
+    font-size: 3vmin;
+    color: rgb(3, 43, 71);
+    opacity: 0.8;
+    outline: none;
+    border: none;
+    background-color: rgba(122, 207, 253, 0.068);
+}
+
+.inputbox .input {
+    width: 52vmin;
+    height: 5vmin;
+    border: none;
+    text-align: end;
+    padding: 1vmin;
+    font-size: 5vmin;
+    background-color: rgba(122, 207, 253, 0.068);
+    outline: none;
+}
+
+.box {
+    gap: 1vmin;
+    display: flex;
+    flex-direction: column;
+}
+
+.del,.clear,.ans {
+    width: 18vmin;
+    padding: 2vmin 0;
+    font-size: 3vmin;
+    font-weight: 500;
+    background-color: rgba(56, 178, 244, 0.86);
+    border: none;
+    border-radius: 1vmin;
+    margin-left: 0.6vmin;
+}
+
+.box .row .value {
+    width: 10vmin;
+    margin: 0.5vmin;
+    padding: 3vmin;
+    font-size: 4vmin;
+    font-weight: 600;
+    background-color: rgba(122, 207, 253, 0.429);
+    border: none;
+    border-radius: 1vmin;
+}
+
+.box .row .operation{
+    background-color: rgba(56, 178, 244, 0.86);
+    width: 10vmin;
+    margin: 0.5vmin;
+    padding: 3vmin;
+    font-size: 4vmin;
+    font-weight: 600;
+    border: none;
+    border-radius: 1vmin;
+}
+
+.enter{
+    width: 22vmin;
+    padding: 3vmin 2vmin;
+    font-size: 4vmin;
+    font-weight: 600;
+    background-color: rgba(9, 80, 106, 0.995);
+    color: white;
+    border: none;
+    border-radius: 1vmin;
+}
